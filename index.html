@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Angel's Space</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-image: url('pinky.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(6px);
+      padding: 30px 40px;
+      border-radius: 25px;
+      text-align: center;
+      max-width: 700px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px #000;
+    }
+
+    .nav-links a {
+      display: inline-block;
+      margin: 10px 15px;
+      padding: 12px 25px;
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+      border: 2px solid #fff;
+      border-radius: 30px;
+      transition: all 0.3s ease-in-out;
+      text-shadow: 1px 1px #000;
+    }
+
+    .nav-links a:hover {
+      background-color: #fff;
+      color: #d63384;
+    }
+
+    .back-button {
+      display: block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background-color: transparent;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      text-shadow: 1px 1px #000;
+    }
+
+    .back-button:hover {
+      background-color: #fff;
+      color: #d63384;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+      .nav-links a {
+        display: block;
+        margin: 10px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Angel's World</h1>
+    <p>Discover who I am, what I love, and how to connect with me.</p>
+    <div class="nav-links">
+      <a href="about.html">About Me</a>
+      <a href="blog.html">What I Love</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <a href="index.html" class="back-button">← Back to Home</a>
+  </div>
+</body>
+</html>
